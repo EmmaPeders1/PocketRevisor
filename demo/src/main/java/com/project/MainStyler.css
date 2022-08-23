@@ -1,0 +1,62 @@
+.root{
+	-fx-background-color: #FCF0CF;
+    background-color: #FCF0CF;
+}
+
+.choice-box{
+	-fx-background-color: #3f2a14,
+	  linear-gradient(#ddf6dd, #c8f1c8),
+	  linear-gradient(#c8f1c8,#b4ecb4),
+	  linear-gradient(#b4ecb4,#a0e7a0);
+  background-color: #3f2a14;
+	-fx-mark-color: #3f2a14;
+	-fx-font-family: simsun;
+    font-family: simsun;
+	-fx-font-color: #3f2a14;
+	-fx-font-size: 15px;
+    font-size: 15px;
+}
+.choice-box .context-menu{
+   -fx-background-color: #b4ecb4;
+    background-color: #b4ecb4;
+}
+.choice-box .menu-item:focused{ 
+  -fx-background-color: #a0e7a0;
+    background-color: #a0e7a0;
+}
+
+.combo-box{
+	-fx-background-color: #3f2a14,
+	  linear-gradient(#ddf6dd, #c8f1c8),
+	  linear-gradient(#c8f1c8,#b4ecb4),
+	  linear-gradient(#b4ecb4,#a0e7a0);
+    background-color: #3f2a14;
+	-fx-mark-color: #3f2a14;
+	-fx-font-family: simsun;
+    font-family: simsun;
+	-fx-font-color: #3f2a14;
+	-fx-font-size: 16px;
+    font-size: 16px;
+}
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell{
+  -fx-background-color: b4ecb4;
+    background-color: #b4ecb4;
+}
+
+.combo-box .combo-box-popup .list-cell:hover {
+  -fx-background-color: #a0e7a0;
+    background-color: #a0e7a0;
+}
+
+.button{
+	-fx-background-color: #3f2a14,
+	  linear-gradient(#ddf6dd, #c8f1c8),
+	  linear-gradient(#c8f1c8,#b4ecb4),
+	  linear-gradient(#b4ecb4,#a0e7a0);
+    background-color: #3f2a14;
+}
+
+.vbox{
+	-fx-background-color: #FCF0CF;
+    background-color: #FCF0CF;
+}
